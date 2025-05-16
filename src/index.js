@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import ComponenteClasse from './componentes/ComponenteClasse'
 import Contador from './componentes/Contador'
+import Hook from './componentes/Hook'
 //import PrimeiroComponente from './componentes/PrimeiroComponente'
 //import CompA , {CompB as B} from './componentes/DoisComponentes'
 //import MultiElementos from './componentes/MultiElementos'
@@ -13,7 +14,8 @@ import Contador from './componentes/Contador'
 
 const elemento = document.getElementById('root')
 ReactDOM.render(<div>
-    <Contador numeroInicial={100}></Contador>
+    <Hook></Hook>
+    {/*<Contador numeroInicial={100}></Contador>*/}
     {/*<ComponenteClasse valor="Sou um componente de classe!"></ComponenteClasse>*/}
     {/*<Pai></Pai>*/}
     {/*<ComponenteComFuncao></ComponenteComFuncao>*/}
