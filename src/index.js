@@ -9,16 +9,13 @@ import Membro from './componentes/Membro'
 
 const elemento = document.getElementById('root')
 ReactDOM.render(<div>
-    <Familia>
-        <Membro nome="Andre" sobrenome="Pereira"></Membro>
-        <Membro nome="Mariana" sobrenome="Pereira"></Membro>
-    </Familia>
-    <Familia>
-        <Membro nome="Bia" sobrenome="Arruda"></Membro>
-        <Membro nome="Gustavo" sobrenome="Arruda"></Membro>
+    <Familia sobrenome="Pereira">
+        <Membro nome="Andre"> </Membro>
+        <Membro nome="Mariana"> </Membro>
     </Familia>
     {/*<FamiliaSilva></FamiliaSilva>*/}
-   { /*<MultiElementos></MultiElementos>*/}
+    {/*<FamiliaSilva></FamiliaSilva>*/}
+    { /*<MultiElementos></MultiElementos>*/}
     {/*<CompA valor="Olá eu sou A!"></CompA>
     <B valor="B na área!"></B>*/}
     {/*PrimeiroComponente valor='Bom dia!'></PrimeiroComponente>*/}
