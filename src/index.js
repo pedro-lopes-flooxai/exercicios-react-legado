@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import ComponenteClasse from './componentes/ComponenteClasse'
+import Contador from './componentes/Contador'
 //import PrimeiroComponente from './componentes/PrimeiroComponente'
 //import CompA , {CompB as B} from './componentes/DoisComponentes'
 //import MultiElementos from './componentes/MultiElementos'
@@ -12,7 +13,8 @@ import ComponenteClasse from './componentes/ComponenteClasse'
 
 const elemento = document.getElementById('root')
 ReactDOM.render(<div>
-    <ComponenteClasse valor="Sou um componente de classe!"></ComponenteClasse>
+    <Contador numeroInicial={100}></Contador>
+    {/*<ComponenteClasse valor="Sou um componente de classe!"></ComponenteClasse>*/}
     {/*<Pai></Pai>*/}
     {/*<ComponenteComFuncao></ComponenteComFuncao>*/}
     {/*<Familia sobrenome="Pereira">
