@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import ComponenteClasse from './componentes/ComponenteClasse'
 //import PrimeiroComponente from './componentes/PrimeiroComponente'
 //import CompA , {CompB as B} from './componentes/DoisComponentes'
 //import MultiElementos from './componentes/MultiElementos'
@@ -7,11 +8,12 @@ import ReactDOM from 'react-dom'
 //import Familia from './componentes/Familia'
 //import Membro from './componentes/Membro'
 //import ComponenteComFuncao from './componentes/ComponenteComFuncao'
-import Pai from './componentes/Pai'
+//import Pai from './componentes/Pai'
 
 const elemento = document.getElementById('root')
 ReactDOM.render(<div>
-    <Pai></Pai>
+    <ComponenteClasse valor="Sou um componente de classe!"></ComponenteClasse>
+    {/*<Pai></Pai>*/}
     {/*<ComponenteComFuncao></ComponenteComFuncao>*/}
     {/*<Familia sobrenome="Pereira">
         <Membro nome="Andre"> </Membro>
